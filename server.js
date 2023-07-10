@@ -11,3 +11,5 @@ app.get('/', (request, response) => {
 app.listen(4000, '0.0.0.0', () => {
   console.log('server started on port 4000')
 })
+//docker image build -t myimage .
+//docker container run -itd --name myhttpd -p 9001:80 httpd
